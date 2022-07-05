@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700&display=swap');
+
+.content {
+  max-width: 960px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.notfound {
+  max-width: 960px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.todolist {
+  text-align: center;
+}
+
+.todolistinput {
+  border-radius: 10px;
+  width: 500px;
+  height: 30px;
+  font-size: 20px;
+}
+
+.todolistinput::placeholder {
+  color: rgb(50, 205, 50);
+  font-weight: bold;
+  font-family: "Nunito";
+}
+
+.todolistinput:focus {
+  outline: none !important;
+  border: 1px solid rgb(50, 205, 50);
+  box-shadow: 0 0 10px rgb(50, 205, 50);
+}
+
+.todolistbtn {
+  margin-left: 2px;
+  background-color: transparent;
+  color: rgb(50, 205, 50);
+  height: 30px;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 20px;
+  font-family: "Nunito";
+}
+
+.todolistbtn:hover {
+  outline: none !important;
+  box-shadow: 0 2px 0 rgb(50, 205, 50);
+}
+
+.taskCard {
+  margin-top: 25px;
+  column-count: 5;
+  column-gap: 20px;
+  background-color: rgb(50, 205, 50);
+  padding-top: 10px;
+  border-radius: 10px;
+  color: whitesmoke;
+  font-size: 20px;
+  font-family: "Nunito";
+}
+
+.taskP {
+  margin-top: 0px;
+}
+
+.taskBttn {
+  cursor: pointer;
+  border-radius: 10px;
+  border-color: transparent;
+  font-size: 20px;
+  font-family: "Nunito";
+}
+
+.taskBttn:hover {
+  color: rgb(50, 205, 50);
+}
+
